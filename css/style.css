@@ -1,0 +1,24 @@
+#navigasi {
+    position: fixed;
+    
+}
+
+#icon {
+    font-size: 30px;
+}
+
+@media screen and (max-width:576px){
+    #navigasi {
+        bottom: 0;
+    }
+
+    nav i {
+        font-size: 50px;
+    }
+}
+
+/* home */
+
+#home {
+    background-color: blue;
+}

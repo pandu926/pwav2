@@ -1,0 +1,83 @@
+#home {
+    background-color: #3A3AE8;
+    height: 1000px;
+    position: relative;
+    z-index: 4;
+    top: -70px;
+}
+
+nav a {
+    z-index: 10;
+    position: relative;
+    top: 10px;
+    
+    font-size: 25px;
+}
+#judul {
+    font-size: 40px;
+    font-weight: bold;
+}
+#home img {
+    width: 40%;
+    position: relative;
+    top: 270px;
+    left: -500px;
+}
+#home p {
+    
+    font-size: 30px;
+    color: white;
+    text-transform: capitalize;
+    padding-left: 30px;
+}
+#slogan {
+    width: 50%;
+    position: relative;
+    float: right;
+    top: 70px;
+    border-left:10px  white solid;
+    left: -30px;
+}
+#home a  {
+    position: relative;
+    left: 38%;
+    top: 400px;
+}
+#home a button {
+    background-color: white;
+    color: blue;
+    width: 20%;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    
+}
+
+@media screen and (max-width: 576px){
+    #judul {
+        font-size: 30px;
+        
+    }
+    #home img {
+        left: -160px;
+    }
+    #home p {
+        font-size: 15px;
+    }
+    #slogan {
+        border-left: 5px white solid;
+        left: -10px;
+        top: 150px;
+    }
+    #home a button {
+        font-size: 20px;
+        width: 50%;
+
+    }
+    #home a {
+        left: 25%;
+        top: 500px;
+    }
+}
+

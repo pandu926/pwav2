@@ -43,7 +43,7 @@ nav a {
     left: 38%;
     top: 400px;
 }
-#home a button {
+#home a button, #aksi a button {
     background-color: white;
     color: blue;
     width: 20%;
@@ -70,7 +70,7 @@ nav a {
         left: -10px;
         top: 150px;
     }
-    #home a button {
+    #home a button, #aksi a button {
         font-size: 20px;
         width: 50%;
 
@@ -201,3 +201,42 @@ nav a {
         top: 50px;
     }
 }
+
+/* aksi */
+#aksi {
+    background-color: #3A3AE8;
+    position: relative;
+    z-index: 10;
+    top: 900px;
+    height: 500px;
+}
+#aksi h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 150px;
+}
+#aksi a {
+    position: relative;
+    left: 37%;
+    top: 200px;
+}
+@media screen and ( max-width:576px){
+    #aksi {
+        top: 700px;
+    }
+    #aksi a{
+        left: 80px;
+        top: 90px;
+
+    }
+    #aksi h1 {
+        font-size: 30px;
+        top: 50px;
+    }
+}
+
+/* footer */
+

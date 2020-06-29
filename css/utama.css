@@ -81,3 +81,64 @@ nav a {
     }
 }
 
+/* fitur unggulan */
+#fitur {
+    position: relative;
+    z-index: 7;
+    top: -280px;
+    background-color: white;
+    height: 1000px;
+}
+ #update {
+    position: relative;
+    top: 120px;
+}
+#update .judul-fitur h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color :  #3A3AE8;
+    padding-left: 10px;
+}
+
+.judul-fitur {
+    width: 400px;
+    height: 65px;
+    position: relative;
+    left: 100px;
+    border-bottom: 7px #3A3AE8 solid;
+}
+
+#update img {
+    width: 300px;
+    position: relative;
+    float: right;
+    top: 100px;
+}
+.row p {
+    font-size: 30px;
+    position: relative;
+    top: 100px;
+    color: #3A3AE8;
+    text-transform: capitalize;
+}
+
+@media screen and (max-width:576px){
+    #update .judul-fitur h1 {
+        font-size: 30px;
+        width: 300px;
+    }
+    .judul-fitur {
+        left: 0px;
+        width: 100%;
+        top: -70px;
+        border-bottom: 5px #3A3AE8 solid;
+    }
+    #update img {
+        width: 150px;
+    }
+    .row p {
+        font-size: 20px;
+        top: -40px;
+    }
+
+}

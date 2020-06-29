@@ -99,6 +99,16 @@ nav a {
     background-color:  #3A3AE8;
     height: 700px;
 }
+#money .judul-fitur{
+    position: relative;
+    left: 550px;
+    border-bottom: 7px white solid;
+    width: 400px;
+}
+#money .container {
+    position: relative;
+    top: 100px;
+}
 .judul-fitur h1 {
     font-size: 40px;
     font-weight: bold;
@@ -106,7 +116,7 @@ nav a {
     padding-left: 10px;
 }
 
-.judul-fitur {
+#update .judul-fitur {
     width: 400px;
     height: 65px;
     position: relative;
@@ -114,11 +124,15 @@ nav a {
     border-bottom: 7px #3A3AE8 solid;
 }
 
-#fitur img {
+#update img, #money img {
     width: 300px;
     position: relative;
     float: right;
     top: 100px;
+}
+#money img {
+    top: -50px;
+    position: relative;
 }
 .row p {
     font-size: 30px;
@@ -127,23 +141,34 @@ nav a {
     color: #3A3AE8;
     text-transform: capitalize;
 }
-
+#notifikasi {
+    position: relative;
+    top: 300px;
+}
 @media screen and (max-width:576px){
     .judul-fitur h1 {
         font-size: 30px;
         width: 300px;
     }
+    #money .judul-fitur {
+        left: 0px;
+        top: -50px;
+        border-bottom: 4px white solid;
+        width: 50%;
+        position: relative;
+    }
     #money .judul-fitur h1 {
         font-size: 30px;
         width: 300px;
-        top: 100px;
+       
         position: relative;
+        z-index: 10;
         
     }
-    .judul-fitur {
+    #update .judul-fitur {
         left: 0px;
         width: 100%;
-        top: -70px;
+        top: -100px;
         border-bottom: 5px #3A3AE8 solid;
     }
 
@@ -154,6 +179,7 @@ nav a {
         width: 150px;
         left: 20px;
         position: relative;
+        top: 100px;
     }
     #money .row p {
        top:50px;
@@ -170,5 +196,8 @@ nav a {
     #money {
         top: 50px;
     }
-
+    #notifikasi {
+        position: relative;
+        top: 50px;
+    }
 }
